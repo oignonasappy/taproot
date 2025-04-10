@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Moralerspace Xenon';
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/MoralerspaceXenon-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Moralerspace Xenon';
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/MoralerspaceXenon-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Moralerspace Xenon';
+    font-weight: normal;
+    font-style: italic;
+    src: url(../fonts/MoralerspaceXenon-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Moralerspace Xenon';
+    font-weight: bold;
+    font-style: italic;
+    src: url(../fonts/MoralerspaceXenon-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Moralerspace Radon';
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/MoralerspaceRadon-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Moralerspace Radon';
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/MoralerspaceRadon-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Moralerspace Radon';
+    font-weight: normal;
+    font-style: italic;
+    src: url(../fonts/MoralerspaceRadon-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Moralerspace Radon';
+    font-weight: bold;
+    font-style: italic;
+    src: url(../fonts/MoralerspaceRadon-BoldItalic.ttf);
+}
+
+p {
+    margin-left: 4%;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+}
+
+.oignonheader {
+    margin-top: 3em;
+    width: max-content;
+}
+
+.oignonheader::before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-image: url(../img/oignon.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    position: relative;
+    bottom: 0.09em;
+}
+
+.logo {
+    margin-right: 5px;
+}
