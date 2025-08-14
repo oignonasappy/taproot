@@ -140,7 +140,7 @@ main {
     border-radius: 16px;
 }
 
-.web-pages summary {
+summary {
     display: block;
     position: relative;
     margin-left: 4%;
@@ -152,7 +152,7 @@ main {
     user-select: none;
 }
 
-.web-pages summary::-webkit-details-marker {
+summary::-webkit-details-marker {
     display: none;
 }
 
@@ -169,7 +169,7 @@ main {
     transition: transform 0.15s;
 }
 
-.web-pages details[open] .summary-arrow {
+details[open] .summary-arrow {
     transform: rotate(-180deg);
 }
 
